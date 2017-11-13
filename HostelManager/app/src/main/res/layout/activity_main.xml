@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firstapp.aditya.hostelmanager.MainActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Students Record"
+        android:textSize="24sp"
+        android:onClick="onRadioButtonClicked"
+
+         />
+    <RadioButton
+    android:id="@+id/radioButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Manage Complaints"
+        android:layout_below="@id/radioButton"
+        android:onClick="onRadioButtonClicked"
+    android:textSize="24sp"
+
+    />
+    <RadioButton
+    android:id="@+id/radioButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Books Database"
+        android:onClick="onRadioButtonClicked"
+        android:layout_below="@id/radioButton1"
+    android:textSize="24sp"
+
+    />
+</RelativeLayout>

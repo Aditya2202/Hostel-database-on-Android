@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firstapp.aditya.hostelmanager.ManageRecords">
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+    <RadioButton
+    android:id="@+id/Addnewrec"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add New Record"
+        android:onClick="onManageRecords"
+    android:textSize="24sp"
+
+    />
+    <RadioButton
+        android:id="@+id/Updaterec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Record"
+        android:onClick="onManageRecords"
+        android:textSize="24sp"
+
+        />
+    <RadioButton
+        android:id="@+id/Deleterec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onManageRecords"
+        android:text="Delete Record"
+        android:textSize="24sp"
+
+        /><RadioButton
+    android:id="@+id/Viewdatabase"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="View Student's Database"
+       android:onClick="onManageRecords"
+    android:textSize="24sp"
+
+    /></RadioGroup>
+
+
+
+</RelativeLayout>
